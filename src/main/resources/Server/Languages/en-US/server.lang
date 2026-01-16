@@ -1,1 +1,14 @@
-items.Example_Block.name=Example Block
+items.Tool_Multitool_Crude.name = Crude Multitool
+items.Tool_Multitool_Crude.description = It can break both stone and wood.
+
+items.Tool_Multitool_Iron.name = Iron Multitool
+
+items.Tool_Multitool_Copper.name = Copper Multitool
+
+items.Tool_Multitool_Adamantite.name = Adamantite Multitool
+
+items.Tool_Multitool_Cobalt.name = Cobalt Multitool
+
+items.Tool_Multitool_Mithril.name = Mithril Multitool
+
+items.Tool_Multitool_Thorium.name = Thorium Multitool

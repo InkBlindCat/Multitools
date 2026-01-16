@@ -1,0 +1,5 @@
+{
+  "Type": "IBC_Multitools_MultitoolAltInteraction",
+  "Next": "Buuz135_ThePickaxesPlaceTorches_PlaceTorch",
+  "Failed": "Pickaxe_Mine"
+}

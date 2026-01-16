@@ -1,0 +1,154 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Tool_Multitool_Crude.name",
+    "Description": "items.Tool_Multitool_Crude.description"
+  },
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/Tool_Multitool_Crude.png",
+  "Model": "Items/Tools/Crude.blockymodel",
+  "Texture": "Items/Tools/Crude_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ResourceTypeId": "Rubble",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Fieldcraft",
+        "Type": "Crafting",
+        "Categories": [
+          "Tools"
+        ]
+      },
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ]
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.35,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.15,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.25,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.084,
+        "GatherType": "VolcanicRocks"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Pickaxe",
+  "Utility": {
+    "Compatible": true
+  },
+  "Interactions": {
+    "Primary": "Pickaxe_Attack",
+    "Secondary": "IBC_Multitools_AltInteraction"
+  },
+  "InteractionVars": {
+    "Block_Hit_Camera_Effects": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "CameraEffect": "Pickaxe_Mine_Impact"
+          }
+        }
+      ]
+    },
+    "Pickaxe_Mine_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Pickaxe_Mine_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Tool_T1_Swing",
+            "LocalSoundEventId": "SFX_Pickaxe_T1_Swing_Down_Local"
+          }
+        }
+      ]
+    },
+    "Pickaxe_Mine_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Pickaxe_Mine_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 1
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      27,
+      -26
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxDurability": 200,
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wood"
+}

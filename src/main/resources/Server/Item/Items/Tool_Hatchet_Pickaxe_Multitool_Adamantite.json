@@ -1,0 +1,90 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Tool_Multitool_Adamantite.name"
+  },
+  "Parent": "Tool_Hatchet_Pickaxe_Multitool_Crude",
+  "Icon": "Icons/ItemsGenerated/Tool_Multitool_Adamantite.png",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Model": "Items/Tools/Adamantite.blockymodel",
+  "Texture": "Items/Tools/Adamantite_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 1.0,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 1,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.34,
+        "GatherType": "VolcanicRocks"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "MaxDurability": 550,
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      29,
+      -28
+    ]
+  }
+}
