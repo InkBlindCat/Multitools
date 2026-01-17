@@ -84,12 +84,12 @@
       }
     ]
   },
-  "PlayerAnimationsId": "Pickaxe",
+  "PlayerAnimationsId": "Multitool",
   "Utility": {
     "Compatible": true
   },
   "Interactions": {
-    "Primary": "Pickaxe_Attack"
+    "Primary": "Multitool_Attack"
   },
   "InteractionVars": {
     "Block_Hit_Camera_Effects": {
@@ -121,6 +121,33 @@
             "Type": "Absolute",
             "BaseDamage": {
               "Physical": 1
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Light_Melee_T1_Impact"
+          }
+        }
+      ]
+    },
+    "Hatchet_Chop_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Hatchet_Chop_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Tool_T1_Swing",
+            "LocalSoundEventId": "SFX_Hatchet_T1_Swing_RL_Local"
+          }
+        }
+      ]
+    },
+    "Hatchet_Chop_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Hatchet_Chop_Damage",
+          "DamageCalculator": {
+            "Type": "Dps",
+            "BaseDamage": {
+              "Physical": 5
             }
           },
           "DamageEffects": {

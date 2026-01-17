@@ -1,0 +1,12 @@
+{
+  "Type": "BlockCondition",
+  "Matchers": [
+    {
+      "Block": {
+        "Tag": "Wood"
+      }
+    }
+  ],
+  "Next": "Hatchet_Attack",
+  "Failed": "Pickaxe_Attack"
+}
