@@ -89,8 +89,7 @@
     "Compatible": true
   },
   "Interactions": {
-    "Primary": "Pickaxe_Attack",
-    "Secondary": "IBC_Multitools_AltInteraction"
+    "Primary": "Pickaxe_Attack"
   },
   "InteractionVars": {
     "Block_Hit_Camera_Effects": {
