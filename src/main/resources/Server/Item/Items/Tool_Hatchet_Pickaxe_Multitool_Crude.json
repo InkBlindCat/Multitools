@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Tool_Multitool_Crude.name",
-    "Description": "items.Tool_Multitool_Crude.description"
+    "Name": "server.items.Tool_Multitool_Crude.name",
+    "Description": "server.items.Tool_Multitool_Crude.description"
   },
   "Categories": [
     "Items.Tools"

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Tool_Multitool_Copper.name"
+    "Name": "server.items.Tool_Multitool_Copper.name"
   },
   "Parent": "Tool_Hatchet_Pickaxe_Multitool_Crude",
   "Icon": "Icons/ItemsGenerated/Tool_Multitool_Copper.png",
