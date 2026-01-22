@@ -33,6 +33,10 @@ public class MultitoolsConfig {
                             (cfg, v, ei) -> cfg.adamantiteMultitoolMaxDurability = v,
                             (cfg, ei) -> cfg.adamantiteMultitoolMaxDurability).add()
 
+                    .append(new KeyedCodec<>("OnyxiumMultitoolMaxDurability", Codec.DOUBLE),
+                            (cfg, v, ei) -> cfg.onyxiumMultitoolMaxDurability = v,
+                            (cfg, ei) -> cfg.onyxiumMultitoolMaxDurability).add()
+
                     .append(new KeyedCodec<>("MithrilMultitoolMaxDurability", Codec.DOUBLE),
                             (cfg, v, ei) -> cfg.mithrilMultitoolMaxDurability = v,
                             (cfg, ei) -> cfg.mithrilMultitoolMaxDurability).add()
@@ -47,6 +51,7 @@ public class MultitoolsConfig {
     private double cobaltMultitoolMaxDurability = 400;
     private double adamantiteMultitoolMaxDurability = 550;
     private double mithrilMultitoolMaxDurability = 550;
+    private double onyxiumMultitoolMaxDurability = 450;
 
     public MultitoolsConfig() {}
 
@@ -72,6 +77,10 @@ public class MultitoolsConfig {
 
     public double getAdamantiteMultitoolMaxDurability() {
         return adamantiteMultitoolMaxDurability;
+    }
+
+    public double getOnyxiumMultitoolMaxDurability() {
+        return onyxiumMultitoolMaxDurability;
     }
 
     public double getMithrilMultitoolMaxDurability() {

@@ -1,0 +1,581 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "R-Attachment",
+      "position": {"x": 0, "y": 17, "z": 0},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": true
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Origin_Projectile",
+          "position": {"x": 0, "y": 41, "z": 19},
+          "orientation": {"x": 0.5, "y": 0, "z": 0, "w": 0.86603},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0, "y": 0, "z": 0},
+            "settings": {
+              "isPiece": true
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "Origin_Item",
+              "position": {"x": 0, "y": -27.95448, "z": 10.41858},
+              "orientation": {"x": -0.5, "y": 0, "z": 0, "w": 0.86603},
+              "shape": {
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0, "y": 0, "z": 0},
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Handle",
+                  "position": {"x": 0, "y": -23, "z": 0},
+                  "orientation": {"x": -0.5, "y": -0.5, "z": 0.5, "w": 0.5},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 13, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 41, "y": 6, "z": 6}
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 6, "y": 20},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 270
+                      },
+                      "front": {
+                        "offset": {"x": 6, "y": 61},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 90
+                      },
+                      "top": {
+                        "offset": {"x": 6, "y": 61},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 90
+                      },
+                      "bottom": {
+                        "offset": {"x": 6, "y": 61},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 90
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  },
+                  "children": [
+                    {
+                      "id": "5",
+                      "name": "Pommel",
+                      "position": {"x": -17, "y": 0, "z": 0},
+                      "orientation": {"x": 0.38268, "y": 0, "z": 0, "w": 0.92388},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -6, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1.1, "z": 1.1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 7, "y": 9, "z": 9}
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 15, "y": 28},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 6, "y": 42},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 8, "y": 37},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 180
+                          },
+                          "left": {
+                            "offset": {"x": 6, "y": 42},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 8, "y": 28},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 8, "y": 28},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "6",
+                      "name": "Handle2",
+                      "position": {"x": 29, "y": 0, "z": 0},
+                      "orientation": {"x": -0.38268, "y": 0, "z": 0, "w": 0.92388},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1.2, "z": 1.2},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 20, "y": 6, "z": 6}
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 6, "y": 0},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
+                          },
+                          "right": {
+                            "offset": {"x": 32, "y": 47},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
+                          },
+                          "front": {
+                            "offset": {"x": 6, "y": 20},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          },
+                          "top": {
+                            "offset": {"x": 6, "y": 20},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          },
+                          "bottom": {
+                            "offset": {"x": 6, "y": 20},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 90
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "7",
+                      "name": "Pickaxe",
+                      "position": {"x": 40, "y": 0, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1.1, "y": 1.19662, "z": 1.28117},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 11, "y": 11, "z": 8}
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 18, "y": 53},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
+                          },
+                          "right": {
+                            "offset": {"x": 24, "y": 53},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 7, "y": 64},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 90
+                          },
+                          "left": {
+                            "offset": {"x": 7, "y": 0},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "top": {
+                            "offset": {"x": 32, "y": 53},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
+                          },
+                          "bottom": {
+                            "offset": {"x": 24, "y": 64},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 90
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      },
+                      "children": [
+                        {
+                          "id": "8",
+                          "name": "Pickaxe",
+                          "position": {"x": 1, "y": -8, "z": 0},
+                          "orientation": {"x": 0, "y": 0, "z": -0.04362, "w": 0.99905},
+                          "shape": {
+                            "type": "none",
+                            "offset": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 0, "y": 0, "z": 0},
+                            "settings": {
+                              "isPiece": false
+                            },
+                            "textureLayout": {},
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          },
+                          "children": [
+                            {
+                              "id": "9",
+                              "name": "Pickaxe2",
+                              "position": {"x": 0.21006, "y": -3.40607, "z": 0},
+                              "orientation": {"x": 0.97724, "y": -0.21215, "z": 0, "w": 0},
+                              "shape": {
+                                "type": "none",
+                                "offset": {"x": 0, "y": 0, "z": 0},
+                                "stretch": {"x": 0, "y": 0, "z": 0},
+                                "settings": {
+                                  "isPiece": false
+                                },
+                                "textureLayout": {},
+                                "unwrapMode": "custom",
+                                "visible": true,
+                                "doubleSided": false,
+                                "shadingMode": "flat"
+                              },
+                              "children": [
+                                {
+                                  "id": "10",
+                                  "name": "Pickaxe3",
+                                  "position": {"x": -0.30911, "y": 12.0354, "z": 0},
+                                  "orientation": {"x": 0.18301, "y": -0.68301, "z": 0.18301, "w": 0.68301},
+                                  "shape": {
+                                    "type": "none",
+                                    "offset": {"x": 0, "y": 0, "z": 0},
+                                    "stretch": {"x": 0, "y": 0, "z": 0},
+                                    "settings": {
+                                      "isPiece": false
+                                    },
+                                    "textureLayout": {},
+                                    "unwrapMode": "custom",
+                                    "visible": true,
+                                    "doubleSided": false,
+                                    "shadingMode": "flat"
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "11",
+                                      "name": "Pickaxe3",
+                                      "position": {"x": 0, "y": 0.72032, "z": 2},
+                                      "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
+                                      "shape": {
+                                        "type": "none",
+                                        "offset": {"x": 0, "y": 0, "z": 0},
+                                        "stretch": {"x": 0, "y": 0, "z": 0},
+                                        "settings": {
+                                          "isPiece": false
+                                        },
+                                        "textureLayout": {},
+                                        "unwrapMode": "custom",
+                                        "visible": true,
+                                        "doubleSided": false,
+                                        "shadingMode": "flat"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "12",
+                          "name": "Pickaxe",
+                          "position": {"x": 0.99999, "y": 8, "z": 0},
+                          "orientation": {"x": 0.99905, "y": 0.04362, "z": 0, "w": 0},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 1.1, "y": 1, "z": -1.1},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 7, "y": 11, "z": 9}
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 24, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "right": {
+                                "offset": {"x": 15, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 31, "y": 0},
+                                "mirror": {"x": true, "y": false},
+                                "angle": 0
+                              },
+                              "left": {
+                                "offset": {"x": 6, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "top": {
+                                "offset": {"x": 24, "y": 37},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "bottom": {
+                                "offset": {"x": 15, "y": 18},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          },
+                          "children": [
+                            {
+                              "id": "13",
+                              "name": "Pickaxe2",
+                              "position": {"x": 0.21006, "y": -3.40607, "z": 0},
+                              "orientation": {"x": 0.97724, "y": -0.21215, "z": 0, "w": 0},
+                              "shape": {
+                                "type": "box",
+                                "offset": {"x": 0, "y": 6, "z": 0},
+                                "stretch": {"x": 1, "y": 1, "z": 0.9},
+                                "settings": {
+                                  "isPiece": false,
+                                  "size": {"x": 6, "y": 12, "z": 9}
+                                },
+                                "textureLayout": {
+                                  "back": {
+                                    "offset": {"x": 24, "y": 23},
+                                    "mirror": {"x": false, "y": true},
+                                    "angle": 0
+                                  },
+                                  "right": {
+                                    "offset": {"x": 15, "y": 23},
+                                    "mirror": {"x": false, "y": true},
+                                    "angle": 0
+                                  },
+                                  "front": {
+                                    "offset": {"x": 30, "y": 23},
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 180
+                                  },
+                                  "left": {
+                                    "offset": {"x": 6, "y": 23},
+                                    "mirror": {"x": false, "y": true},
+                                    "angle": 0
+                                  },
+                                  "top": {
+                                    "offset": {"x": 24, "y": 23},
+                                    "mirror": {"x": true, "y": true},
+                                    "angle": 270
+                                  },
+                                  "bottom": {
+                                    "offset": {"x": 24, "y": 0},
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 0
+                                  }
+                                },
+                                "unwrapMode": "custom",
+                                "visible": true,
+                                "doubleSided": false,
+                                "shadingMode": "flat"
+                              },
+                              "children": [
+                                {
+                                  "id": "14",
+                                  "name": "Pickaxe3",
+                                  "position": {"x": -0.30911, "y": 6.0354, "z": 0},
+                                  "orientation": {"x": -0.18301, "y": 0.68301, "z": 0.18301, "w": 0.68301},
+                                  "shape": {
+                                    "type": "quad",
+                                    "offset": {"x": 0, "y": 4, "z": 0},
+                                    "stretch": {"x": 0.7, "y": 1, "z": 0.7},
+                                    "settings": {
+                                      "isPiece": false,
+                                      "size": {"x": 8, "y": 13},
+                                      "normal": "+X"
+                                    },
+                                    "textureLayout": {
+                                      "front": {
+                                        "offset": {"x": 24, "y": 36},
+                                        "mirror": {"x": false, "y": true},
+                                        "angle": 0
+                                      }
+                                    },
+                                    "unwrapMode": "custom",
+                                    "visible": true,
+                                    "doubleSided": true,
+                                    "shadingMode": "flat"
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "15",
+                                      "name": "Pickaxe3",
+                                      "position": {"x": 0, "y": -3.27968, "z": -2},
+                                      "orientation": {"x": 0, "y": -0.70711, "z": 0, "w": 0.70711},
+                                      "shape": {
+                                        "type": "quad",
+                                        "offset": {"x": 0, "y": 4, "z": 0},
+                                        "stretch": {"x": 0.7, "y": 1, "z": 0.7},
+                                        "settings": {
+                                          "isPiece": false,
+                                          "size": {"x": 9, "y": 13},
+                                          "normal": "+X"
+                                        },
+                                        "textureLayout": {
+                                          "front": {
+                                            "offset": {"x": 24, "y": 36},
+                                            "mirror": {"x": true, "y": true},
+                                            "angle": 0
+                                          }
+                                        },
+                                        "unwrapMode": "custom",
+                                        "visible": true,
+                                        "doubleSided": true,
+                                        "shadingMode": "flat"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "16",
+                      "name": "Axe2--C1",
+                      "position": {"x": 37.00049, "y": -7.95111, "z": -0.2262},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 17, "y": 12, "z": 2},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 58, "y": 1},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 59, "y": 0},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 41, "y": 1},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 59, "y": 0},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 40, "y": 13},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "17",
+                      "name": "Axe3--C2",
+                      "position": {"x": 32.49872, "y": -17.95111, "z": -0.2262},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 25, "y": 10},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 33, "y": 13},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "character",
+  "lod": "auto"
+}

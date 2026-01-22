@@ -54,6 +54,7 @@ public class MultitoolDurabilityUtil {
                 "Tool_Hatchet_Pickaxe_Multitool_Thorium", config.getThoriumMultitoolMaxDurability(),
                 "Tool_Hatchet_Pickaxe_Multitool_Cobalt", config.getCobaltMultitoolMaxDurability(),
                 "Tool_Hatchet_Pickaxe_Multitool_Adamantite", config.getAdamantiteMultitoolMaxDurability(),
+                "Tool_Hatchet_Pickaxe_Multitool_Onyxium", config.getOnyxiumMultitoolMaxDurability(),
                 "Tool_Hatchet_Pickaxe_Multitool_Mithril", config.getMithrilMultitoolMaxDurability()
         );
     }
