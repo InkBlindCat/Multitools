@@ -50,7 +50,7 @@
       {
         "Power": 0.5,
         "GatherType": "Rocks",
-        "HitSoundLayer": "SFX_Pickaxe_T2_Impact_Nice"
+        "Quality": 3
       },
       {
         "Power": 0.5,
@@ -59,6 +59,38 @@
       {
         "Power": 0.17,
         "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 0.25,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 0.25,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 0.25,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 0.125,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 0.125,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 0.084,
+        "GatherType": "OreAdamantite"
+      },
+      {
+        "Power": 0.063,
+        "GatherType": "OreMithril"
       }
     ],
     "DurabilityLossBlockTypes": [
