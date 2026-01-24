@@ -9,6 +9,10 @@ public class MultitoolsConfig {
     public static final BuilderCodec<MultitoolsConfig> CODEC =
             BuilderCodec.builder(MultitoolsConfig.class, MultitoolsConfig::new)
 
+                    .append(new KeyedCodec<>("EnableDurabilityOverride", Codec.BOOLEAN),
+                            (cfg, v, ei) -> cfg.enableDurabilityOverride = v,
+                            (cfg, ei) -> cfg.enableDurabilityOverride).add()
+
                     .append(new KeyedCodec<>("CrudeMultitoolMaxDurability", Codec.DOUBLE),
                             (cfg, v, ei) -> cfg.crudeMultitoolMaxDurability = v,
                             (cfg, ei) -> cfg.crudeMultitoolMaxDurability).add()
@@ -43,7 +47,7 @@ public class MultitoolsConfig {
 
                     .build();
 
-    // значения по умолчанию
+    private boolean enableDurabilityOverride = false;
     private double crudeMultitoolMaxDurability = 200;
     private double copperMultitoolMaxDurability = 280;
     private double ironMultitoolMaxDurability = 350;
@@ -54,6 +58,10 @@ public class MultitoolsConfig {
     private double onyxiumMultitoolMaxDurability = 450;
 
     public MultitoolsConfig() {}
+
+    public boolean isDurabilityOverrideEnabled() {
+        return enableDurabilityOverride;
+    }
 
     public double getCrudeMultitoolMaxDurability() {
         return crudeMultitoolMaxDurability;

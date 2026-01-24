@@ -12,6 +12,8 @@ public class MultitoolDurabilityUtil {
     public static void migrateContainerDurability(
             ItemContainer container
     ) {
+        MultitoolsConfig config = Multitools.getInstance().getConfig().get();
+        if (!config.isDurabilityOverrideEnabled()) return;
         if (container == null) return;
 
         Map<String, Double> durabilityMap = createDurabilityMap();
