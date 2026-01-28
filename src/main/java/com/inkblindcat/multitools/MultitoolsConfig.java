@@ -48,13 +48,13 @@ public class MultitoolsConfig {
                     .build();
 
     private boolean enableDurabilityOverride = false;
-    private double crudeMultitoolMaxDurability = 200;
-    private double copperMultitoolMaxDurability = 280;
-    private double ironMultitoolMaxDurability = 350;
-    private double thoriumMultitoolMaxDurability = 500;
-    private double cobaltMultitoolMaxDurability = 400;
-    private double adamantiteMultitoolMaxDurability = 550;
-    private double mithrilMultitoolMaxDurability = 550;
+    private double crudeMultitoolMaxDurability = 150;
+    private double copperMultitoolMaxDurability = 200;
+    private double ironMultitoolMaxDurability = 250;
+    private double thoriumMultitoolMaxDurability = 325;
+    private double cobaltMultitoolMaxDurability = 325;
+    private double adamantiteMultitoolMaxDurability = 400;
+    private double mithrilMultitoolMaxDurability = 400;
     private double onyxiumMultitoolMaxDurability = 450;
 
     public MultitoolsConfig() {}

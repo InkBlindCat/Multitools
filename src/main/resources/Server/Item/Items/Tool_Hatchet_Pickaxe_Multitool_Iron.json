@@ -105,7 +105,7 @@
       }
     ]
   },
-  "MaxDurability": 350,
+  "MaxDurability": 250,
   "Parent": "Tool_Hatchet_Pickaxe_Multitool_Crude",
   "IconProperties": {
     "Scale": 0.45,

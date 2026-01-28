@@ -108,7 +108,7 @@
       }
     ]
   },
-  "MaxDurability": 400,
+  "MaxDurability": 325,
   "IconProperties": {
     "Scale": 0.45,
     "Rotation": [

@@ -203,7 +203,7 @@
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "MaxDurability": 200,
+  "MaxDurability": 150,
   "Tags": {
     "Type": [
       "Tool"
