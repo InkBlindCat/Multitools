@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.inkblindcat"
-version = "1.2.2"
+version = "1.2.3"
 val javaVersion = 25
 
 val appData = System.getenv("APPDATA") ?: (System.getenv("HOME") + "/.var/app/com.hypixel.HytaleLauncher/data")
