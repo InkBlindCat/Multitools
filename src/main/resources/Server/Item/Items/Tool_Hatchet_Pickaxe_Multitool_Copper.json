@@ -100,7 +100,8 @@
           "Stone",
           "Rock",
           "Ores",
-          "Soil"
+          "Soil",
+          "Wood"
         ],
         "DurabilityLossOnHit": 0.25
       }

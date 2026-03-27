@@ -1,13 +1,15 @@
 package com.inkblindcat.multitools;
 
-import com.hypixel.hytale.server.core.event.events.entity.LivingEntityInventoryChangeEvent;
+//import com.hypixel.hytale.server.core.event.events.entity.LivingEntityInventoryChangeEvent;
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
+import com.hypixel.hytale.server.core.inventory.InventoryChangeEvent;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.util.Config;
-import com.inkblindcat.multitools.event.ContainerMtConfigSystem;
-import com.inkblindcat.multitools.event.LivingEntityInventoryChangeMtConfigEvent;
+//import com.inkblindcat.multitools.event.ContainerMtConfigSystem;
+import com.inkblindcat.multitools.event.InventoryChangeMtConfigEvent;
+//import com.inkblindcat.multitools.event.LivingEntityInventoryChangeMtConfigEvent;
 import com.inkblindcat.multitools.event.PlayerReadyMtConfigEvent;
 
 import javax.annotation.Nonnull;
@@ -28,9 +30,10 @@ public class Multitools extends JavaPlugin {
         super.setup();
         this.config.save();
 
-        this.getEventRegistry().registerGlobal(LivingEntityInventoryChangeEvent.class, LivingEntityInventoryChangeMtConfigEvent::onLivingEntityInventoryChangeEvent);
-        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerReadyMtConfigEvent::onPlayerReady);
-        this.getEntityStoreRegistry().registerSystem(new ContainerMtConfigSystem());
+        this.getEventRegistry().registerGlobal(InventoryChangeEvent.class, InventoryChangeMtConfigEvent::onInventoryChangeEvent);
+//        this.getEventRegistry().registerGlobal(LivingEntityInventoryChangeEvent.class, LivingEntityInventoryChangeMtConfigEvent::onLivingEntityInventoryChangeEvent);
+//        this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, PlayerReadyMtConfigEvent::onPlayerReady);
+//        this.getEntityStoreRegistry().registerSystem(new ContainerMtConfigSystem());
     }
 
     public static Multitools getInstance() {
