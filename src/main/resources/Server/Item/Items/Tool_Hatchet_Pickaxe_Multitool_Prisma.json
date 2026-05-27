@@ -1,0 +1,147 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Tool_Multitool_Prisma.name"
+  },
+  "Parent": "Tool_Hatchet_Pickaxe_Multitool_Crude",
+  "Icon": "Icons/ItemsGenerated/Tool_Multitool_Prisma.png",
+  "Quality": "Legendary",
+  "ItemLevel": 66,
+  "Model": "Items/Tools/Prisma.blockymodel",
+  "Texture": "Items/Tools/Prisma_Texture.png",
+  "Light": {
+    "Color": "#b060ff",
+    "Radius": 1
+  },
+  "Recipe": {
+    "TimeSeconds": 8,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Prisma",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Leather_Prismic",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Rock_Gem_Emerald",
+        "Quantity": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 3
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1.5,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 1.0,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 1.0,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "Rocks",
+        "Quality": 6
+      },
+      {
+        "Power": 3.0,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreAdamantite",
+        "Quality": 4
+      },
+      {
+        "Power": 10.0,
+        "GatherType": "OreMithril",
+        "Quality": 6
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil",
+          "Wood"
+        ],
+        "DurabilityLossOnHit": 0.1
+      }
+    ]
+  },
+  "Interactions": {
+    "Ability3": "Root_Endgame_Pickaxe_Prisma_To_AreaBreak"
+  },
+  "State": {
+    "Normal": "Endgame_Pickaxe_Prisma",
+    "AreaBreak": {
+      "Light": {
+        "Color": "#ff8800",
+        "Radius": 2
+      },
+      "Interactions": {
+        "Ability3": "Root_Endgame_Pickaxe_Prisma_To_Normal"
+      },
+      "Variant": true
+    }
+  },
+  "MaxDurability": 1500,
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      29,
+      -28
+    ]
+  }
+}
