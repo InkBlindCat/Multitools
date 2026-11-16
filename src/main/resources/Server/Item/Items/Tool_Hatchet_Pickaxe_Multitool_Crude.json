@@ -69,6 +69,12 @@
         "GatherType": "Benches"
       },
       {
+        "Power": 0.001,
+        "GatherType": "Metals",
+        "IsIncorrect": true,
+        "HitSoundLayer": "SFX_Pickaxe_Impact_Poor"
+      },
+      {
         "Power": 0.084,
         "GatherType": "VolcanicRocks"
       },
@@ -103,6 +109,10 @@
       {
         "Power": 0.042,
         "GatherType": "OreMithril"
+      },
+      {
+        "Power": 0.12,
+        "GatherType": "GoblinMetal"
       }
     ],
     "DurabilityLossBlockTypes": [
@@ -204,7 +214,7 @@
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "MaxDurability": 150,
+  "MaxDurability": 200,
   "Tags": {
     "Type": [
       "Tool"

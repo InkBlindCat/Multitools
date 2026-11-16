@@ -58,6 +58,12 @@
         "GatherType": "Benches"
       },
       {
+        "Power": 0.001,
+        "GatherType": "Metals",
+        "IsIncorrect": true,
+        "HitSoundLayer": "SFX_Pickaxe_Impact_Poor"
+      },
+      {
         "Power": 0.12,
         "GatherType": "VolcanicRocks"
       },
@@ -92,6 +98,10 @@
       {
         "Power": 0.05,
         "GatherType": "OreMithril"
+      },
+      {
+        "Power": 0.17,
+        "GatherType": "GoblinMetal"
       }
     ],
     "DurabilityLossBlockTypes": [
@@ -107,7 +117,7 @@
       }
     ]
   },
-  "MaxDurability": 200,
+  "MaxDurability": 300,
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [

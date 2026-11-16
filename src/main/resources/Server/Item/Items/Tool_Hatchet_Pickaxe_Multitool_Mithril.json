@@ -55,6 +55,10 @@
         "GatherType": "Benches"
       },
       {
+        "Power": 0.5,
+        "GatherType": "Metals"
+      },
+      {
         "Power": 0.34,
         "GatherType": "VolcanicRocks"
       },
@@ -90,6 +94,10 @@
       {
         "Power": 0.25,
         "GatherType": "OreMithril"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "GoblinMetal"
       }
     ],
     "DurabilityLossBlockTypes": [

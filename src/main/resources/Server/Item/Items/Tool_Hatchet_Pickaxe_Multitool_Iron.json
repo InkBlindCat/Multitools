@@ -57,6 +57,12 @@
         "GatherType": "Benches"
       },
       {
+        "Power": 0.001,
+        "GatherType": "Metals",
+        "IsIncorrect": true,
+        "HitSoundLayer": "SFX_Pickaxe_Impact_Poor"
+      },
+      {
         "Power": 0.17,
         "GatherType": "VolcanicRocks"
       },
@@ -91,6 +97,10 @@
       {
         "Power": 0.063,
         "GatherType": "OreMithril"
+      },
+      {
+        "Power": 0.34,
+        "GatherType": "GoblinMetal"
       }
     ],
     "DurabilityLossBlockTypes": [
@@ -106,7 +116,7 @@
       }
     ]
   },
-  "MaxDurability": 250,
+  "MaxDurability": 500,
   "Parent": "Tool_Hatchet_Pickaxe_Multitool_Crude",
   "IconProperties": {
     "Scale": 0.45,
